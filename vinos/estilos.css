@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+body{
+    font-family: 'Poppins';
+}
+
+header .contenedor{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+.contenedor{
+    
+    max-width: 1280;
+    width:  90%;
+    margin: auto;
+    
+}
+header ul{
+    display: flex;
+}
+
+header ul li{
+    margin-right: 20px;}
+
+header p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}   
+
+#encabezado{
+    background: url(./img/jeff-siepman-hK9hIPgF3QU-unsplash.jpg);
+    background-size: cover;
+    padding: 600px 0;
+}
+
+h1{
+    font-size: 75px;
+    color: #280400!important;
+    margin: 0px 0px;
+}
+
+#encabezado p{
+    width: 50%;
+    color: #666;
+    margin-bottom:  50px;
+}
+#encabezado a, #contacto .izquierda a{
+    text-decoration: none;
+    color: #280400;
+    border: 1px solid #280400;
+    padding:  20px 40px 20px 40px;
+    transform: 0.4s;
+}
+
+#encabezado a:hover, #contacto a:hover{
+    background: #280400;
+    color: #fff;
+    transition: 0.4s;
+} 
+
+
+.columnas{
+    display: flex;
+}
+.columnas img{
+    width: 90%;
+}
+#contacto{
+    display: flex;
+    justify-content: center;
+    background: url(./img/tim-l-productions-Kny8iSPBQ0w-unsplash.jpg);
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+#contacto .izquierda  {
+width: 40%;
+}
+
+h2{
+    font-size: 75px;
+    color: #280400!important;
+    margin: 30px 20px;
+    margin-bottom: 50px;
+}
+
+#contacto .izquierda p {
+    font-size: 15px;
+    color: #666;
+    margin-top: 40px;
+}
+
+#contacto .derecha {
+    background: #280400;
+    color: #fff;
+    padding: 80px 20px;
+}  
+
+.datos{
+    font-size: 13px;
+}
+
+.derecha h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.derecha a{
+    color: #fff;
+    border: 1px solid #fff; 
+    padding: 20px 40px 20px 40px;
+    
+    transition: 0.4s;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+#img{
+    height: auto;
+    background-size: cover;
+    padding: 100px;
+    position: relative;
+    max-width: 100%;
+}
+
+
+
