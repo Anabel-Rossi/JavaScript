@@ -41,3 +41,5 @@ const productos = [
     },
 ]
 
+localStorage.setItem("productos", JSON.stringify(productos));
+
